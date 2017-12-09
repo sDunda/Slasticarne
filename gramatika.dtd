@@ -1,0 +1,27 @@
+<!ELEMENT slasticarnice (slasticarnica+)>
+
+<!ELEMENT slasticarnica (naziv, oib, adresa+, vlasnik?, telefon+, radno_vrijeme+, web_stranica?, ocjena?, facebook_id)>
+<!ATTLIST slasticarnica GlutenFREE (da | ne) #IMPLIED>
+
+<!ELEMENT naziv (#PCDATA)>
+<!ELEMENT oib (#PCDATA)>
+
+<!ELEMENT adresa (ulica, kucni_broj, kvart)>
+<!ELEMENT ulica (#PCDATA)>
+<!ELEMENT kucni_broj (#PCDATA)>
+<!ELEMENT kvart (#PCDATA)>
+
+<!ELEMENT vlasnik (#PCDATA)>
+
+<!ELEMENT telefon (broj)>
+<!ATTLIST telefon vrsta (fiksni | mobilni) #IMPLIED>
+<!ELEMENT broj (#PCDATA)>
+<!ATTLIST broj pozivni_broj (01 | 091 | 099 | 098 | 095) #REQUIRED>
+
+<!ELEMENT radno_vrijeme (od, do)>
+<!ATTLIST radno_vrijeme dan (radni_dan | vikend) #REQUIRED>
+<!ELEMENT od (#PCDATA)>
+<!ELEMENT do (#PCDATA)>
+<!ELEMENT web_stranica (#PCDATA)>
+<!ELEMENT ocjena (#PCDATA)>
+<!ELEMENT facebook_id (#PCDATA)>

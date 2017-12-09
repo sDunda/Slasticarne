@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="hr">
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="dizajn.css" />
+    <title>Pretraga</title>
+    <link rel="icon" type="image/jpg" href="logo.jpg" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html"><img id="slika" src="logo.jpg" alt="logo.jpg"/></a>
+      <h1>&nbsp;&nbsp; Slastičarnice grada Zagreba</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Početna stranica</a></li>
+        <li><a href="obrazac.html">Pretraga</a></li>
+        <li><a href="podaci.xml">Ponuda</a></li>
+        <li><a href="http://www.fer.unizg.hr/predmet/or" target="_top">Otvoreno računarstvo</a></li>
+        <li><a href="https://www.fer.unizg.hr" target="_blank">FER</a></li>
+
+      </ul>
+    </nav>
+    <section>
+      <h3>Pronađite željenu slastičarnicu:</h3>
+    <form action="pretraga.php" method="post" name="pretraga">
+      <table id="t2">
+        <tr>
+          <td>
+            Ime slastičarnice:
+          </td>
+          <td>
+            <input type="text" name="ime">
+          </td>
+          <tr>
+          <td>
+            Vlasnik slastičarnice:
+          </td>
+          <td>
+            <input type="text" name="vlasnik">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Ulica:
+          </td>
+          <td>
+            <input type="text" name="ulica">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Broj:
+          </td>
+          <td>
+            <input type="text" name="broj">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Kvart:
+          </td>
+          <td>
+            <input type="text" name="kvart">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Radno vrijeme:
+          </td>
+          <td>
+            <input type="checkbox" name="dan[]" value="radni_dan"> Radni dan
+            <input type="checkbox" name="dan[]" value="vikend"> Vikend
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Radi u:
+          </td>
+          <td>
+            <select name="vrijeme">
+              <option value="7">7:00</option>
+              <option value="8">8:00</option>
+              <option value="9">9:00</option>
+              <option value="10">10:00</option>
+              <option value="11">11:00</option>
+              <option value="12">12:00</option>
+              <option value="13">13:00</option>
+              <option value="14">14:00</option>
+              <option value="15">15:00</option>
+              <option value="16">16:00</option>
+              <option value="17">17:00</option>
+              <option value="18">18:00</option>
+              <option value="19">19:00</option>
+              <option value="20">20:00</option>
+              <option value="21">21:00</option>
+              <option value="22">22:00</option>
+              <option value="23">23:00</option>
+              <option value="24">24:00</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Ocjena:
+          </td>
+          <td>
+            <select name="ocjena">
+              <option value="1">nezadovoljavajuća</option>
+              <option value="2">dovoljna</option>
+              <option value="3">prosječna</option>
+              <option value="4">vrlo dobra</option>
+              <option value="5">odlična</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Gluten FREE
+          </td>
+          <td>
+            <input type="radio" name="gluten" value="da"> da
+            <input type="radio" name="gluten" value="ne"> ne
+          </td>
+        </tr>
+        <tr>
+          <td>
+          <input id="potvrda" type="submit" value="Potvrdi">
+          </td>
+          <td>
+          <input id="brisi" type="reset" value="Izbriši sve">
+          </td>
+        </tr>
+
+      </table>
+    </form>
+     </section>
+    <footer>
+      <p>© sDunda </p>
+    </footer>
+  </body>
+</html>

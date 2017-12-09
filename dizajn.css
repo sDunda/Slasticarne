@@ -1,0 +1,136 @@
+body {
+  font-family: verdana;
+  margin: 0;
+}
+
+#slika {
+  float: left;
+  height: 80px;
+  width: auto;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+
+header {
+  background-color: #fff6cc;
+  padding: 15px;
+}
+
+nav {
+  float: left;
+  width: 20%;
+  height: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#kriteriji {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color:black;
+}
+
+#slast {
+  font-size: 15px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  background-color: #fffae6;
+  display: block;
+  padding: 5px;
+  margin-bottom: 4px;
+}
+
+li a:hover {
+  background-color: white;
+}
+
+table#t1,#t1 th,#t1 td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 5px;
+}
+
+table#t1 {
+  width: 70%;
+}
+
+table#t1 th {
+  background-color: #fff6cc;
+  font-weight: normal;
+  font-style: italic;
+}
+
+table#t1 tr:hover{
+  background-color: #fffae6;
+}
+
+#potvrda {
+  background-color: green;
+  font-size: 12px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+#brisi {
+  background-color: red;
+  font-size: 12px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+caption {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+table#t2 tr {
+  height: 50px;
+}
+
+section {
+  padding-left: 21%;
+  margin-bottom: 300px;
+}
+#top {
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  background-color: #fff6cc;
+  padding: 15px;
+}
+
+#pretraga {
+  font-weight: bold;
+}
+
+#podaci{
+    text-align: center;
+    width: 80%;
+}
+#podaci th{
+    font-weight: bold;
+    background-color: #fff6cc;
+}
+#podaci tr:nth-child(odd){
+      background-color: #fffae6;
+}
+#fblogo{
+    width: 40px;
+    height: 40px;
+}

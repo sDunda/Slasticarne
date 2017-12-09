@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pretvorba.xsl"?>
+<!DOCTYPE slasticarnice SYSTEM "gramatika.dtd">
+
+<slasticarnice>
+  <slasticarnica GlutenFREE="da">
+    <naziv>Vincek</naziv>
+    <oib>99500510088</oib>
+    <adresa>
+      <ulica>Ilica</ulica>
+      <kucni_broj>18</kucni_broj>
+      <kvart>Centar</kvart>
+    </adresa>
+    <adresa>
+      <ulica>Zvonimirova</ulica>
+      <kucni_broj>7</kucni_broj>
+      <kvart>Medveščak</kvart>
+    </adresa>
+    <adresa>
+      <ulica>Vjenceslava Richtera</ulica>
+      <kucni_broj>4</kucni_broj>
+      <kvart>Bundek</kvart>
+    </adresa>
+    <vlasnik>Stjepan Vincek</vlasnik>
+    <telefon vrsta="fiksni">
+      <broj pozivni_broj="01">4833612</broj>
+    </telefon>
+    <radno_vrijeme dan="radni_dan">
+      <od>9</od>
+      <do>23</do>
+    </radno_vrijeme>
+    <radno_vrijeme dan="vikend">
+      <od>9</od>
+      <do>23</do>
+    </radno_vrijeme>
+    <web_stranica>http://www.vincek.com.hr</web_stranica>
+    <ocjena>5</ocjena>
+    <facebook_id>316524448394878</facebook_id>
+  </slasticarnica>
+  <slasticarnica GlutenFREE="da">
+    <naziv>Millennium</naziv>
+    <oib>16761282214</oib>
+    <adresa>
+      <ulica>Bogovićeva</ulica>
+      <kucni_broj>7</kucni_broj>
+      <kvart>Centar</kvart>
+    </adresa>
+    <vlasnik>Hašarije Abdurahimi</vlasnik>
+    <telefon vrsta="fiksni">
+      <broj pozivni_broj="01">4810850</broj>
+    </telefon>
+    <radno_vrijeme dan="radni_dan">
+      <od>8</od>
+      <do>24</do>
+    </radno_vrijeme>
+    <radno_vrijeme dan="vikend">
+      <od>8</od>
+      <do>24</do>
+    </radno_vrijeme>
+    <web_stranica>http://www.slasticarnica-millennium.hr</web_stranica>
+    <ocjena>4</ocjena>
+    <facebook_id>115580905187545</facebook_id>
+  </slasticarnica>
+  <slasticarnica GlutenFREE="ne">
+    <naziv>M&amp;M</naziv>
+    <oib>82326436601</oib>
+    <adresa>
+      <ulica>Ratarska</ulica>
+      <kucni_broj>13</kucni_broj>
+      <kvart>Rudeš</kvart>
+    </adresa>
+    <vlasnik></vlasnik>
+    <telefon vrsta="fiksni">
+      <broj pozivni_broj="01">3861630</broj>
+    </telefon>
+    <radno_vrijeme dan="radni_dan">
+      <od>7</od>
+      <do>21</do>
+    </radno_vrijeme>
+    <radno_vrijeme dan="vikend">
+      <od>7</od>
+      <do>21</do>
+    </radno_vrijeme>
+    <web_stranica>http://www.mim.hr</web_stranica>
+    <ocjena>5</ocjena>
+    <facebook_id>135845633289296</facebook_id>
+  </slasticarnica>
+  <slasticarnica GlutenFREE="ne">
+    <naziv>The Cookie Factory</naziv>
+    <oib>	42775075695</oib>
+    <adresa>
+      <ulica>Tkalčićeva</ulica>
+      <kucni_broj>21</kucni_broj>
+      <kvart>Centar</kvart>
+    </adresa>
+    <vlasnik>Teo Jurdan</vlasnik>
+    <telefon vrsta="mobilni">
+      <broj pozivni_broj="099">4949400</broj>
+    </telefon>
+    <radno_vrijeme dan="radni_dan">
+      <od>9</od>
+      <do>22</do>
+    </radno_vrijeme>
+    <radno_vrijeme dan="vikend">
+      <od>9</od>
+      <do>23</do>
+    </radno_vrijeme>
+    <web_stranica>http://www.cookiefactory.hr</web_stranica>
+    <facebook_id>213275602039092</facebook_id>
+  </slasticarnica>
+  <slasticarnica GlutenFREE="ne">
+    <naziv>Dulcia</naziv>
+    <oib>48149843025</oib>
+    <adresa>
+      <ulica>Ozaljska</ulica>
+      <kucni_broj>8</kucni_broj>
+      <kvart>Trešnjevka</kvart>
+    </adresa>
+    <adresa>
+      <ulica>Side Košutić</ulica>
+      <kucni_broj>4</kucni_broj>
+      <kvart>Stenjevec</kvart>
+    </adresa>
+    <vlasnik>Teuta Gluvak</vlasnik>
+    <telefon vrsta="fiksni">
+      <broj pozivni_broj="01">3098134</broj>
+    </telefon>
+    <radno_vrijeme dan="radni_dan">
+      <od>8</od>
+      <do>21</do>
+    </radno_vrijeme>
+    <radno_vrijeme dan="vikend">
+      <od>9</od>
+      <do>21</do>
+    </radno_vrijeme>
+    <web_stranica>http://dulcia.hr</web_stranica>
+    <ocjena>5</ocjena>
+    <facebook_id>292647557578715</facebook_id>
+  </slasticarnica>
+  <slasticarnica GlutenFREE="ne">
+    <naziv>Horak</naziv>
+    <oib>64406313844</oib>
+    <adresa>
+      <ulica>Ilica</ulica>
+      <kucni_broj>160</kucni_broj>
+      <kvart>Centar</kvart>
+    </adresa>
+    <vlasnik></vlasnik>
+    <telefon vrsta="fiksni">
+      <broj pozivni_broj="01">3701680</broj>
+    </telefon>
+    <telefon vrsta="mobilni">
+      <broj pozivni_broj="099">3701680</broj>
+    </telefon>
+    <radno_vrijeme dan="radni_dan">
+      <od>7</od>
+      <do>20</do>
+    </radno_vrijeme>
+    <radno_vrijeme dan="vikend">
+      <od>7</od>
+      <do>20</do>
+    </radno_vrijeme>
+    <web_stranica>http://www.horak.hr</web_stranica>
+    <ocjena>4</ocjena>
+    <facebook_id>184730991568989</facebook_id>
+  </slasticarnica>
+  <slasticarnica GlutenFREE="ne">
+    <naziv>Butik torti</naziv>
+    <oib>61479052017</oib>
+    <adresa>
+      <ulica>Rapska ulica</ulica>
+      <kucni_broj>38</kucni_broj>
+      <kvart>Sigečica</kvart>
+    </adresa>
+    <vlasnik>:Mario Vujinović</vlasnik>
+    <telefon vrsta="mobilni">
+      <broj pozivni_broj="095">8384906</broj>
+    </telefon>
+    <radno_vrijeme dan="radni_dan">
+      <od>7</od>
+      <do>21</do>
+    </radno_vrijeme>
+    <radno_vrijeme dan="vikend">
+      <od>8</od>
+      <do>20</do>
+    </radno_vrijeme>
+    <web_stranica>http://www.butiktorti.eu</web_stranica>
+    <ocjena>5</ocjena>
+    <facebook_id>229718010485564</facebook_id>
+  </slasticarnica>
+  <slasticarnica GlutenFREE="ne">
+    <naziv>Fine torte</naziv>
+    <oib>68583399623</oib>
+    <adresa>
+      <ulica>Vlaška</ulica>
+      <kucni_broj>31</kucni_broj>
+      <kvart>Centar</kvart>
+    </adresa>
+    <vlasnik>Silvija Trbara</vlasnik>
+    <telefon vrsta="mobilni">
+      <broj pozivni_broj="099">2200021</broj>
+    </telefon>
+    <radno_vrijeme dan="radni_dan">
+      <od>8</od>
+      <do>22</do>
+    </radno_vrijeme>
+    <radno_vrijeme dan="vikend">
+      <od>10</od>
+      <do>20</do>
+    </radno_vrijeme>
+    <web_stranica>http://finetorte.hr</web_stranica>
+    <ocjena>5</ocjena>
+    <facebook_id>358366664268763</facebook_id>
+  </slasticarnica>
+
+</slasticarnice>
